@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true // Permite importar arquivos .json como se fossem módulos
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
